@@ -1,1 +1,72 @@
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.left-panel {
+  width: 40%;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-sizing: border-box;
+}
+
+.right-panel {
+  width: 60%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.profile-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 5px;
+  color: #333;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+}
+
+p {
+  margin: 5px 0;
+  color: #444;
+}
+
+.skill {
+  margin-bottom: 10px;
+}
+
+.skill i {
+  margin-right: 8px;
+  color: #007bff;
+}
+
+.bar {
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 4px;
+}
+
+.bar div {
+  height: 100%;
+  background-color: #007bff;
+}
